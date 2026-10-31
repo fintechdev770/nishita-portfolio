@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Nishita Bhandary — Data Analyst portfolio">
+  <title>Nishita Bhandary | Data Analyst</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="topline"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#home">NB<span>.</span></a>
+    <div class="header-right">
+      <span class="counter"><b id="currentNo">01</b> / 06</span>
+      <a class="resume-link" href="resume/Nishita_Bhandary_Resume.pdf" target="_blank">Resume ↗</a>
+    </div>
+  </header>
+
+  <main id="portfolio">
+
+    <section class="panel active" id="home" data-index="01">
+      <div class="panel-inner hero-inner">
+        <div class="hero-kicker">DATA ANALYST · MUMBAI · 2027</div>
+        <h1>Nishita<br><span>Bhandary</span></h1>
+        <div class="hero-rule"></div>
+        <p class="hero-statement">Turning structured data into clear insights, better questions, and practical decisions.</p>
+        <div class="hero-meta">
+          <span>B.Sc. Computer Science</span>
+          <span>SQL</span>
+          <span>Python</span>
+          <span>Advanced Excel</span>
+          <span>Power BI</span>
+        </div>
+        <button class="next-btn" data-next>Explore my profile <span>↓</span></button>
+      </div>
+    </section>
+
+    <section class="panel" id="about" data-index="02">
+      <div class="panel-inner">
+        <div class="section-heading">
+          <span>02 / ABOUT</span>
+          <h2>A little about<br><em>how I think.</em></h2>
+        </div>
+        <div class="about-layout">
+          <div class="about-lead">
+            <p>I’m a B.Sc. Computer Science student building a career around data analytics, business intelligence and structured problem solving.</p>
+          </div>
+          <div class="about-copy">
+            <p>I enjoy taking a messy or open-ended problem, breaking it into measurable questions, and using data to understand what is actually happening.</p>
+            <p>My current toolkit includes SQL, Python, Advanced Excel, Power BI, data cleaning, validation, exploratory analysis and basic statistical reasoning.</p>
+            <p>I’m especially interested in opportunities where analytical work connects directly to a real business decision.</p>
+          </div>
+        </div>
+        <div class="bottom-note">
+          <span>01</span>
+          <span>Curious · Analytical · Always Learning</span>
+        </div>
+        <button class="next-btn bottom-btn" data-next>Next — Skills <span>→</span></button>
+      </div>
+    </section>
+
+    <section class="panel" id="skills" data-index="03">
+      <div class="panel-inner">
+        <div class="section-heading compact">
+          <span>03 / SKILLS</span>
+          <h2>The tools behind<br><em>the analysis.</em></h2>
+        </div>
+        <div class="skill-list">
+          <article class="skill-row">
+            <div class="skill-number">01</div>
+            <div><h3>SQL</h3><p>Querying · Joins · Aggregations · Relational data</p></div>
+            <strong>Core</strong>
+          </article>
+          <article class="skill-row">
+            <div class="skill-number">02</div>
+            <div><h3>Python</h3><p>Pandas · Data cleaning · Analysis workflows</p></div>
+            <strong>Core</strong>
+          </article>
+          <article class="skill-row">
+            <div class="skill-number">03</div>
+            <div><h3>Advanced Excel</h3><p>Functions · Analysis · Reporting · Visualization</p></div>
+            <strong>Advanced</strong>
+          </article>
+          <article class="skill-row">
+            <div class="skill-number">04</div>
+            <div><h3>Power BI</h3><p>Dashboards · KPIs · Data visualization</p></div>
+            <strong>Analytics</strong>
+          </article>
+          <article class="skill-row">
+            <div class="skill-number">05</div>
+            <div><h3>Analytical Thinking</h3><p>EDA · Data validation · Statistical reasoning · Problem solving</p></div>
+            <strong>Strength</strong>
+          </article>
+        </div>
+        <div class="workflow">
+          <span>Understand</span><i>→</i><span>Clean</span><i>→</i><span>Explore</span><i>→</i><span>Analyze</span><i>→</i><span>Recommend</span>
+        </div>
+        <button class="next-btn bottom-btn" data-next>Next — Case Studies <span>→</span></button>
+      </div>
+    </section>
+
+    <section class="panel" id="projects" data-index="04">
+      <div class="panel-inner">
+        <div class="section-heading compact">
+          <span>04 / CASE STUDIES</span>
+          <h2>Work that shows<br><em>the process.</em></h2>
+        </div>
+        <div class="case-grid">
+          <button class="case-card active-case" data-case="commute">
+            <span>01</span>
+            <div><small>ACADEMIC PROJECT</small><h3>CommuteSync</h3><p>Carpooling & commute management system</p></div>
+            <b>View details →</b>
+          </button>
+          <button class="case-card" data-case="bi">
+            <span>02</span>
+            <div><small>ANALYTICS WORK</small><h3>Data Analysis & BI</h3><p>Cleaning, querying, exploration & reporting</p></div>
+            <b>View details →</b>
+          </button>
+        </div>
+
+        <div class="case-detail" id="caseDetail">
+          <div>
+            <small id="caseLabel">ACADEMIC · PYTHON · SQL / DATABASE CONCEPTS</small>
+            <h3 id="caseTitle">CommuteSync</h3>
+          </div>
+          <div id="caseText">
+            <p>Designed a structured carpooling and commute-management system for users, rides and bookings.</p>
+            <p>Focused on translating a real-world transportation problem into a clear technical workflow using Python and database concepts.</p>
+          </div>
+        </div>
+        <button class="next-btn bottom-btn" data-next>Next — Experience <span>→</span></button>
+      </div>
+    </section>
+
+    
+    <section class="panel contact-panel" id="contact" data-index="06">
+      <div class="panel-inner contact-inner">
+        <div class="section-heading">
+          <span>06 / CONTACT</span>
+          <h2>Let’s connect<br><em>over data.</em></h2>
+        </div>
+        <p class="contact-intro">I’m currently looking for Data Analyst internship opportunities where I can learn from real business problems and contribute through structured, reliable analysis.</p>
+        <div class="contact-links">
+          <a href="mailto:nishitabhandary64@gmail.com"><span>Email</span><b>nishitabhandary64@gmail.com ↗</b></a>
+          <a href="https://www.linkedin.com/in/nishita-b-a8a5b3343" target="_blank"><span>LinkedIn</span><b>linkedin.com/in/nishita-b-a8a5b3343 ↗</b></a>
+          <a href="https://github.com/fintechdev770" target="_blank"><span>GitHub</span><b>github.com/fintechdev770 ↗</b></a>
+        </div>
+        <div class="contact-footer">
+          <span>Mumbai, Maharashtra, India</span>
+          <span>Data · Insights · Impact</span>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <div class="side-progress" aria-label="Section navigation">
+    <button class="dot active" data-target="0" aria-label="Home"></button>
+    <button class="dot" data-target="1" aria-label="About"></button>
+    <button class="dot" data-target="2" aria-label="Skills"></button>
+    <button class="dot" data-target="3" aria-label="Case studies"></button>
+    <button class="dot" data-target="4" aria-label="Experience"></button>
+    <button class="dot" data-target="5" aria-label="Contact"></button>
+  </div>
+
+  <footer class="site-footer">
+    <span>© 2026 Nishita Bhandary</span>
+    <span>Data Analyst Portfolio</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
